@@ -11,9 +11,35 @@ This is an API to use in the [Tank Wars serverless camp](https://tankwars.server
 
 ## Installing
 
-To install this tanks to your AWS account, run `npm install`, then `npm start` or `claudia create --region eu-west-1 --api-module api`.
+To install this tanks to your AWS account, run:
 
-To update the API, after modifying the code, run `npm run deploy` or `claudia create --region eu-west-1 --api-module api`.
+```
+$ npm install
+````
+
+Then:
+
+```
+$ npm start
+```
+
+or:
+
+```
+$ claudia create --region eu-west-1 --api-module api
+```
+
+To update the API, after modifying the code, run:
+
+```
+npm run deploy
+```
+
+or:
+
+```
+claudia update
+```
 
 ## Try it live
 

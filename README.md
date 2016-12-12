@@ -32,13 +32,13 @@ $ claudia create --region eu-west-1 --api-module api
 To update the API, after modifying the code, run:
 
 ```
-npm run deploy
+$ npm run deploy
 ```
 
 or:
 
 ```
-claudia update
+$ claudia update
 ```
 
 ## Try it live
